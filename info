@@ -1,0 +1,5 @@
+- we have already created an entity class 
+- A postgres database schema and repo class
+- Now we are going to create Authentication filter , cauz the user request first handled by JWT Authentication filter .
+- Then after checking our request at JWT Authentication filter(check JWT Token) it is forwarded to UserDetailsService to check whether user is already 
+   is present in the database or not 
